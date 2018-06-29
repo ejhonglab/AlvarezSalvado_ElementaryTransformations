@@ -1,0 +1,6 @@
+
+The code contained in this folder is intended to extract data from binary files produced with the Miniature “Manhattan” Wind-tunnels. Some of the programs will need to be adjusted to properly work on data if it has been collected with different versions of the acquisition software (later than 2017). The code as it is here is optimized for data collected with Fly_Tracker_3.6.
+
+The main function to use is “importer”. Within that function there are several calls and dependencies to other functions that are all contained in this folder or in the parent folder (the “filtering” function, for example, is used both by the importing and the analysis programs).
+
+Contact Efren at efren@posteo.org for any questions.  Alternatively, Andrew Matheson or David Fox might know how to solve problems with this code. 

@@ -1,0 +1,29 @@
+
+THESE ARE THE FITTED VALUES USED FOR ALL COMPUTATIONAL MODEL SIMULATIONS DONE FOR THE ARTICLE ALVAREZ-SALVADO ET AL. (2018).
+
+
+% ON/OFF MODEL PARAMETERS - uses compress-first models
+ beta = 0.01;    % Kd for Hill compression
+ tau_Aon = 490;   % adaptation time constant for ON (in samples at 50Hz)
+ tau_Aoff = 504; % adaptation time constant for OFF (in samples at 50Hz)
+ tau_ON = 36;   % time constant for ON filtering (in samples at 50 Hz, so ~ 1s)
+ tau_OFF1 = 31;  % fast time constant for OFF differentiation (in samples at 50Hz)
+ tau_OFF2 = 242; % slow time constant for OFF differentiation (in samples at 50Hz)
+ 
+ scaleON = 1; % This parameter might be used to scale the ON response 
+ scaleOFF = 1; % This parameter might be used to scale the OFF response 
+
+ 
+ % NAVIGATION MODEL PARAMETERS
+ turnbase = 0.12;  % baseline turn rate; this is a probability when used at 50Hz, we scale it when running at 15 Hz so the overall turn rate is the same
+ tsigma = 20;     % sigma of turn amplitude distribution (degrees/s)
+ vbase = 6;        % baseline velocity, mm/s
+
+ tmodON =  0.03;    % strength of ON turning modulation 
+ tmodOFF = 0.75;         % strength of OFF turning modulation 
+
+ vmodON = 0.45;     % strength of ON velocity modulation (mm/s)
+ vmodOFF = 0.8;    % strength of OFF velocity modulation (mm/s)
+
+ kup = 5;          % strength of upwind drive (deg/samp)
+ kdown = 0.5;       % strength of downwind drive (deg/samp)
