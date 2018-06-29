@@ -1,0 +1,37 @@
+
+The layers have to be arranged in the following order, from bottom to top: Floor - Manifold - Comb - Wall - Ceiling. The rubber layer goes stuck to the top of the Wall layer after all the layers have been screwed down together, so that it seals the chambers when the ceiling is on.
+
+When the pieces come from the laser-cutting service (e.g. Pololu), make sure to clean each of them thoroughly before assembling the arenas.
+
+A brief decription of each layer:
+
+-FLOOR (cut from 4.5 mm clear extruded acrylic): Holds the odor and air inputs. The odor inputs are the narrowest holes and some kind of thin tube has to be cut (~1 cm long) and glued there, so that tubing can be attached to the arena. The air inputs are the wider holes, and they need to be tapped with a 1/4”-28 tap so that the luer connectors can go in.
+
+-MANIFOLD (cut from 1.5 mm clear extruded acrylic): This layer contains the small chambers to distribute the odor laterally before in enters the main air stream. Make sure the lateral chambers match the odor input holes from the FLOOR layer. Also, IMPORTANTLY, this layer is the surface on which flies will be walking, so make sure it remains completely clean during the process of putting together the arena. It should not have any material rests of any kind that can alter the behavior.
+
+-COMB (cut from 0.5 mm PETG -> McMaster #9513K123): It creates a linear flow of air thanks to the comb-like shape. Be careful when cleaning it as some of the thinner parts can break or bend (if that happens and it can’t be straightened again, I encourage you to discard the layer and get a new one).
+
+-WALL (cut from 0.8 mm Delrin -> McMaster #8575K131): Once the arena is assembled, when you remove the ceiling lid you will see that a portion of this black layer is uncovered. That is exactly the area that corresponds to the RUBBER layer (you will notice its shape coincides). Stick it with super-glue VERY CAREFULLY. If you don’t feel secure doing so, you can stick the rubber before assembling the arenas, but make sure the rubber coincides with the gap left by the CEILING layer.
+
+-CEILING (cut from 4.5 mm clear extruded acrylic): It is important that this layer is thick, because over time the IR heat bends the lid, and this will be partially prevented by a thicker lid. Make sure to clean it too after every experiment. It is enough to screw it down on all 4 corners and on the center; it is not necessary to screw it down in every hole. There are more holes than necessary to give options.
+
+-RUBBER (cut from 0.4 mm fluorosilicone -> McMaster #2183T11 (12x12”) or #2183T21 (12x36”)): The better you stuck it, the longer you won’t have to care about it and the less data you will lose to tracking errors. The MOST IMPORTANT thing when you stick it is to not let any part of the silicone to get in the arena space (ourside the black layer). 
+
+-CEILING FOR MEASUREMENTS: Same as the regular ceiling, but it has holes made to use it during calibration with a PID or an ANEMOMETER. Make sure there is at least one of these in the lab for the type of arena you are using.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
